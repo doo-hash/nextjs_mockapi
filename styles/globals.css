@@ -1,5 +1,6 @@
 html,
 body {
+  min-height: 100vh;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +14,40 @@ a {
 
 * {
   box-sizing: border-box;
+}
+#__next, .main-content{
+  min-height: 100vh;
+}
+.main-content .nav-1{
+  background-color: tomato;
+}
+.main-content .nav-2{
+  background-color: lightsalmon;
+}
+.main-content .nav-3{
+  background-color: coral;
+}
+.main-content .nav-4{
+  background-color: darkred;
+}
+.main-content .nav-5{
+  background-color: crimson;
+}
+.main-content .nav-6{
+  background-color:black;
+}
+.main-content .nav-7{
+  background-color:darkcyan;
+}
+.main-content .nav-8{
+  background-color:darkgoldenrod;
+}
+.main-content .nav-9{
+  background-color:darkslategrey;
+}
+.main-content .nav-10{
+  background-color:darkviolet;
+}
+.main-content .nav-11{
+  background-color:firebrick;
 }
