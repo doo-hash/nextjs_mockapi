@@ -15,6 +15,12 @@ a {
 * {
   box-sizing: border-box;
 }
+a,p{
+  font-size: 1.5rem;
+}
+small, small a{
+  font-size: 1rem;
+}
 #__next, .main-content{
   min-height: 100vh;
 }
@@ -50,4 +56,61 @@ a {
 }
 .main-content .nav-11{
   background-color:firebrick;
+}
+.header-content{
+  background-color: coral;
+}
+.header-content span{
+  color: white;
+  font: bold;
+  text-shadow: 1px 1px 2px coral,
+  1px 3px 2px #ff7f50,
+  1px 5px 2px #ff7f50,
+  0 6px 5px rgba(255,255,255,.5),
+  0 0 10px rgba(255,255,255,.7),
+  0 1px 20px rgba(255,255,255,.9)
+}
+.btn{
+  color: white;
+}
+.form-body .btn{
+  background-color: coral;
+  color:white;
+  font-size: 1.2rem;
+}
+form{
+  font-size: 1.2rem;
+}
+.btn:hover,
+.btn:focus{
+  color: coral !important;
+  background-color: white;
+}
+.header-content .signup-head{
+  text-transform: uppercase;
+  color: white;
+}
+input:read-only{
+  background-color: coral !important;
+  opacity:0.4 !important;
+}
+input[type="radio"]{
+  border: none;
+}
+input[type="password"]::placeholder{
+  color:white !important;
+}
+.form-body .hide{
+  content-visibility: hidden;
+}
+.signin-layout{
+  min-height: 100vh;
+  border: none;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  align-content:center;
+}
+.signin-body{
+  min-height: 100%;
 }

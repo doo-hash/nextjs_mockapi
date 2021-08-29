@@ -6,6 +6,13 @@ export default function Home() {
   const router=useRouter();
   return (
     <>
+        <div className="container-fluid header-content mb-4 p-3">
+            <header className="d-flex justify-content-center px-1 py-2 mb-0">
+            <span className="d-flex align-items-center fw-bold px-2 display-2 text-decoration-none text-white">
+                LOGO
+            </span>
+            </header>
+        </div>
       <div className="main-content">
       <nav className="navbar m-2 text-white nav-1">
         <span className="display-6 p-1 float-start">Home</span>
